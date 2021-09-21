@@ -6,7 +6,6 @@ branches:
     - dev
     - /\d+\.\d+/
   
-     
       deploy:
         provider: releases
         token: $GH_TOKEN
