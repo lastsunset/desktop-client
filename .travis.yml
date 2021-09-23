@@ -13,7 +13,6 @@ branches:
         file:
         - "AmneziaVPN_x64.exe"
         on:
-          tags: true
           branch: master
 
     - name: Windows_x32
@@ -57,7 +56,6 @@ branches:
         file:
         - "AmneziaVPN_x32.exe"
         on:
-          tags: true
           branch: master
 
 deploy:
